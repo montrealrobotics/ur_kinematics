@@ -1,4 +1,4 @@
-from  kinematics_utils import kinematics
+from kinematics_utils import kinematics
 import numpy as np
 
 
