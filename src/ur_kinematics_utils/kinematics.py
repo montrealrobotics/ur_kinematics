@@ -15,7 +15,7 @@ class kinematics_model():
 
         # angles (rads)
         if origin_offset is None:
-            origin_offset = [0, 0, 0]
+            origin_offset = [0, 0, 0.1]
         self.theta = np.zeros(6, dtype=np.float32)  # thetas are the joint variables
         self.alpha = np.array([np.pi / 2, 0, 0, np.pi / 2, -np.pi / 2, 0], dtype=np.float32)
         self.number_of_joints = 6
